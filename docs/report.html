@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的麦门周报</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#faf6f1;color:#241f21;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.page{max-width:820px;margin:0 auto;padding:32px 20px 48px}
+.hero{background:linear-gradient(135deg,#DA291C,#f0503a);color:#fff;border-radius:20px;padding:28px 30px;
+box-shadow:0 10px 30px rgba(218,41,28,.18)}
+.hero h1{margin:0;font-size:26px;letter-spacing:1px}
+.hero p{margin:8px 0 0;opacity:.9;font-size:13px}
+.gold{background:#FFC72C;display:inline-block;padding:2px 10px;border-radius:999px;font-size:12px;color:#241f21;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
+.stat{background:#fff;border-radius:14px;padding:16px 14px;text-align:center;
+box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.stat b{display:block;font-size:22px;color:#DA291C}
+.stat span{font-size:12px;color:#8a8587}
+.panel{background:#fff;border-radius:16px;padding:20px 22px;margin-bottom:16px;
+box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.panel h2{margin:0 0 14px;font-size:16px;border-left:4px solid #FFC72C;padding-left:10px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:13px}
+.bar-label{width:60px;color:#8a8587}
+.bar-track{flex:1;height:12px;background:#f2ece6;border-radius:999px;overflow:hidden}
+.bar-track i{display:block;height:100%;background:#DA291C;border-radius:999px}
+.bar-value{width:56px;text-align:right}
+.flex{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.legend{font-size:13px;line-height:1.9}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:8px 4px;border-bottom:1px dashed #eee}
+.num{text-align:right;color:#8a8587}
+.tag{display:inline-block;background:#fff4d6;border:1px solid #FFC72C;color:#241f21;
+border-radius:999px;padding:6px 14px;margin:4px 6px 0 0;font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{background:#fbf7f2;border:1px dashed #e6d9cc;border-radius:12px;padding:14px}
+.card h3{margin:0 0 6px;font-size:13px;color:#8a8587;font-weight:600}
+.card .big{margin:0;font-size:15px;font-weight:700}
+.card .meta{margin:4px 0 0;font-size:12px;color:#8a8587}
+.store{font-size:13px;padding:4px 0}
+.store em{float:right;color:#8a8587;font-style:normal}
+.empty{color:#8a8587;font-size:13px}
+footer{margin-top:20px;font-size:12px;color:#8a8587;line-height:1.8}
+@media(max-width:640px){.grid,.cards{grid-template-columns:repeat(2,1fr)}}
+</style></head><body><div class="page">
+
+<div class="hero">
+  <h1>我的麦门周报</h1>
+  <p>2026-05-08 ~ 2026-10-17　·　共 16 单　·　32 件单品　<span class="gold">517.4 元</span></p>
+</div>
+
+<div class="grid">
+  <div class="stat"><b>16</b><span>下单次数</span></div>
+  <div class="stat"><b>517.4</b><span>累计金额(元)</span></div>
+  <div class="stat"><b>32.34</b><span>平均单笔(元)</span></div>
+  <div class="stat"><b>163</b><span>覆盖天数</span></div>
+</div>
+
+<div class="panel"><h2>我属于哪一档</h2><span class='tag' title='尝过 15 种不同单品'>菜单探险家</span></div>
+
+<div class="panel"><h2>什么时候在吃</h2><div class='bar-row'><span class='bar-label'>早餐</span><span class='bar-track'><i style='width:60.0%'></i></span><span class='bar-value'>3 单</span></div><div class='bar-row'><span class='bar-label'>午市</span><span class='bar-track'><i style='width:100.0%'></i></span><span class='bar-value'>5 单</span></div><div class='bar-row'><span class='bar-label'>下午茶</span><span class='bar-track'><i style='width:20.0%'></i></span><span class='bar-value'>1 单</span></div><div class='bar-row'><span class='bar-label'>晚餐</span><span class='bar-track'><i style='width:80.0%'></i></span><span class='bar-value'>4 单</span></div><div class='bar-row'><span class='bar-label'>夜宵</span><span class='bar-track'><i style='width:60.0%'></i></span><span class='bar-value'>3 单</span></div></div>
+
+<div class="panel"><h2>星期分布</h2><div class="flex"><svg viewBox='0 0 140 140' width='140' height='140'><circle cx='70' cy='70' r='42' fill='none' stroke='#DA291C' stroke-width='18' stroke-dasharray='16.49 247.40' stroke-dashoffset='-0.00' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#FFC72C' stroke-width='18' stroke-dasharray='49.48 214.41' stroke-dashoffset='-16.49' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#f4795b' stroke-width='18' stroke-dasharray='32.99 230.91' stroke-dashoffset='-65.97' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#6fbf73' stroke-width='18' stroke-dasharray='16.49 247.40' stroke-dashoffset='-98.96' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#5c8ad4' stroke-width='18' stroke-dasharray='49.48 214.41' stroke-dashoffset='-115.45' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#a06cd5' stroke-width='18' stroke-dasharray='49.48 214.41' stroke-dashoffset='-164.93' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='42' fill='none' stroke='#e0a83c' stroke-width='18' stroke-dasharray='49.48 214.41' stroke-dashoffset='-214.41' transform='rotate(-90 70 70)'/><circle cx='70' cy='70' r='30' fill='#fff'/><text x='70' y='66' text-anchor='middle' font-size='20' font-weight='700' fill='#241f21'>16</text><text x='70' y='84' text-anchor='middle' font-size='11' fill='#8a8587'>单</text></svg>
+  <div class="legend">周一：1 单<br>周二：3 单<br>周三：2 单<br>周四：1 单<br>周五：3 单<br>周六：3 单<br>周日：3 单<br></div></div></div>
+
+<div class="panel"><h2>最常点 TOP 5</h2><table><tr><td>1</td><td>芝芝火腿扒堡</td><td class='num'>3 份</td></tr><tr><td>2</td><td>吉士双层汉堡</td><td class='num'>3 份</td></tr><tr><td>3</td><td>鲜萃冰咖</td><td class='num'>2 份</td></tr><tr><td>4</td><td>薯条(中)</td><td class='num'>2 份</td></tr><tr><td>5</td><td>培根蔬萃双层牛堡</td><td class='num'>2 份</td></tr></table></div>
+
+<div class="panel"><h2>常去的门店</h2><div class='store'>· 示例-金湾商都餐厅 <em>6 单</em></div><div class='store'>· 示例-海滨泳场餐厅 <em>5 单</em></div><div class='store'>· 示例-机场路店 <em>5 单</em></div></div>
+
+<div class="panel"><h2>几个片段</h2><div class="cards">
+  <div class='card'><h3>最早的一单</h3><p class='big'>2026-09-30 01:41</p><p class='meta'>示例-海滨泳场餐厅｜¥18.9</p><p class='meta'>巨无霸、冰美式</p></div><div class='card'><h3>最晚的一单</h3><p class='big'>2026-09-18 23:24</p><p class='meta'>示例-金湾商都餐厅｜¥33.9</p><p class='meta'>板烧鸡腿堡、麦旋风</p></div><div class='card'><h3>最大手笔</h3><p class='big'>2026-09-06 22:07</p><p class='meta'>示例-机场路店｜¥48.9</p><p class='meta'>麦辣鸡腿堡、橙汁</p></div>
+</div></div>
+
+<footer>
+  数据来源：本地脱敏样例 orders_sample.json。本报告由 mcd-moments 自动生成，全部数值来自麦当劳 MCP 只读接口在生成时刻的返回。<br>
+  本报告为麦当劳程序员创意开发大赛参赛作品产出，非麦当劳官方产品；内容仅作个人记录与分享用途。
+</footer>
+
+</div></body></html>
