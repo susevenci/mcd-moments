@@ -1,0 +1,407 @@
+{
+  "_meta": {
+    "warning": "脱敏样例数据：订单号/门店编码/日期均为示意值，结构与真实 order-list 返回一致，不含任何真实个人信息。"
+  },
+  "list": [
+    {
+      "orderId": "OMASK1000000000000000000",
+      "orderType": "1",
+      "createTime": "2026-05-08 07:00:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900001",
+          "productName": "芝芝火腿扒堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520011",
+              "name": "鲜萃冰咖",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "18.9"
+    },
+    {
+      "orderId": "OMASK1000000000000000371",
+      "orderType": "1",
+      "createTime": "2026-05-19 08:17:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440002",
+      "storeName": "示例-海滨泳场餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900014",
+          "productName": "吉士双层汉堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520018",
+              "name": "薯条(中)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "36.4"
+    },
+    {
+      "orderId": "OMASK1000000000000000742",
+      "orderType": "1",
+      "createTime": "2026-06-02 08:34:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440003",
+      "storeName": "示例-机场路店",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900027",
+          "productName": "培根蔬萃双层牛堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520025",
+              "name": "纯牛奶",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "21.4"
+    },
+    {
+      "orderId": "OMASK1000000000000001113",
+      "orderType": "1",
+      "createTime": "2026-06-14 10:51:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900040",
+          "productName": "麦香鱼",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520032",
+              "name": "橙汁",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "38.9"
+    },
+    {
+      "orderId": "OMASK1000000000000001484",
+      "orderType": "1",
+      "createTime": "2026-06-27 12:08:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440002",
+      "storeName": "示例-海滨泳场餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900053",
+          "productName": "麦辣鸡腿堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520039",
+              "name": "麦旋风",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "23.9"
+    },
+    {
+      "orderId": "OMASK1000000000000001855",
+      "orderType": "1",
+      "createTime": "2026-07-03 12:25:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440003",
+      "storeName": "示例-机场路店",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900066",
+          "productName": "板烧鸡腿堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520046",
+              "name": "冰美式",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "41.4"
+    },
+    {
+      "orderId": "OMASK1000000000000002226",
+      "orderType": "1",
+      "createTime": "2026-07-13 13:42:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900079",
+          "productName": "巨无霸",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520053",
+              "name": "玉米杯",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "26.4"
+    },
+    {
+      "orderId": "OMASK1000000000000002597",
+      "orderType": "1",
+      "createTime": "2026-07-21 15:59:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440002",
+      "storeName": "示例-海滨泳场餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900092",
+          "productName": "芝芝火腿扒堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520060",
+              "name": "热豆浆",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "43.9"
+    },
+    {
+      "orderId": "OMASK1000000000000002968",
+      "orderType": "1",
+      "createTime": "2026-08-05 17:16:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440003",
+      "storeName": "示例-机场路店",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900105",
+          "productName": "吉士双层汉堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520067",
+              "name": "鲜萃冰咖",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "28.9"
+    },
+    {
+      "orderId": "OMASK1000000000000003339",
+      "orderType": "1",
+      "createTime": "2026-08-16 19:33:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900118",
+          "productName": "培根蔬萃双层牛堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520074",
+              "name": "薯条(中)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "46.4"
+    },
+    {
+      "orderId": "OMASK1000000000000003710",
+      "orderType": "1",
+      "createTime": "2026-08-29 20:50:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440002",
+      "storeName": "示例-海滨泳场餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900131",
+          "productName": "麦香鱼",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520081",
+              "name": "纯牛奶",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "31.4"
+    },
+    {
+      "orderId": "OMASK1000000000000004081",
+      "orderType": "1",
+      "createTime": "2026-09-06 22:07:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440003",
+      "storeName": "示例-机场路店",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900144",
+          "productName": "麦辣鸡腿堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520088",
+              "name": "橙汁",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "48.9"
+    },
+    {
+      "orderId": "OMASK1000000000000004452",
+      "orderType": "1",
+      "createTime": "2026-09-18 23:24:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900157",
+          "productName": "板烧鸡腿堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520095",
+              "name": "麦旋风",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "33.9"
+    },
+    {
+      "orderId": "OMASK1000000000000004823",
+      "orderType": "1",
+      "createTime": "2026-09-30 01:41:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440002",
+      "storeName": "示例-海滨泳场餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900170",
+          "productName": "巨无霸",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520102",
+              "name": "冰美式",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "18.9"
+    },
+    {
+      "orderId": "OMASK1000000000000005194",
+      "orderType": "1",
+      "createTime": "2026-10-08 12:58:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440003",
+      "storeName": "示例-机场路店",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900183",
+          "productName": "芝芝火腿扒堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520109",
+              "name": "玉米杯",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "36.4"
+    },
+    {
+      "orderId": "OMASK1000000000000005565",
+      "orderType": "1",
+      "createTime": "2026-10-17 18:15:00",
+      "beType": "1",
+      "beCode": "",
+      "storeCode": "1440001",
+      "storeName": "示例-金湾商都餐厅",
+      "orderStatus": "订单已完成",
+      "orderProductList": [
+        {
+          "productCode": "9900196",
+          "productName": "吉士双层汉堡",
+          "quantity": 1,
+          "comboItemList": [
+            {
+              "productCode": "520116",
+              "name": "热豆浆",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "realTotalAmount": "21.4"
+    }
+  ]
+}
